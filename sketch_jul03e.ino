@@ -3,15 +3,15 @@ Morse morse(13);
  
 void setup()
 {
-  Serial.begin(9600);   //波特率
+  Serial.begin(9600);   //设定波频率9600
 }
 
 void loop()
 {
   char str[] = "";
-  while(Serial.available()>0)  //判断串口是否有数据读入
+  while(Serial.available()>0)  //判断串口是否有数据输入
   {
-    strcpy(str,(Serial.read()));
+    strcpy(str,(Serial.read()));//复制输入给str
   }
   if(strlen(str)!=0)
   {

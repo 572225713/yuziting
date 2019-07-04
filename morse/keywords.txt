@@ -1,0 +1,4 @@
+Morse	KEYWORD1
+dash	KEYWORD2
+dot	KEYWORD2
+       c_spaceKEYWORD2     w_spaceKEYWORD2

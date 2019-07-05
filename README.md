@@ -10,7 +10,7 @@
 - 如何学习开源硬件
 - 几个常用软件
 #### arduino
-![](img/arduino.png)
+![](7shumaguan/7.png)
 #### fritzing
 ![](img/frizting.png)
 #### proccessing
